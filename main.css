@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 50;
+  line-height: 15px;
+  margin-top: 15px;
+}
+
+.header-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 16px 60px;
+  background-color: #194d99;
+  color: #fff;
+}
+
+.btn-white {
+  background: #ffffff;
+  padding: 12px 24px;
+  border-radius: 40px;
+  display: inline-block;
+  color: #194d99;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background: #194d99; /* Butonun arka plan rengi */
+  padding: 8px 16px; /* İç boşluk */
+  border-radius: 40px; /* Kenar yuvarlama */
+  display: inline-block; /* Butonu blok olarak gösterir */
+  cursor: pointer; /* Fare imlecini el işareti yapar */
+  font-weight: 600; /* Yazı kalınlığı */
+  color: #fff; /* Yazı rengi */
+  font-size: 20px; /* Yazı boyutu */
+  transition: background-color 0.3s, color 0.3s; /* Geçiş efekti */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+.link-btn {
+  color: inherit; /* Miras aldığı renk */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+.btn-blue:hover {
+  background-color: #afd0f4; /* Üzerine gelindiğinde arka plan rengi değişimi */
+  color: black; /* Üzerine gelindiğinde yazı rengi değişimi */
+}
+
+.banner-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin-inline: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  .text-block {
+    text-align: center;
+    padding: 0 40px;
+    max-width: 1000px;
+    line-height: 50px;
+  }
+}
+
+footer {
+  position: absolute; /* Footer'ı sayfanın altına sabitle */
+  bottom: 0; /* Alt kısma sabitle */
+  left: 0; /* Sol kısma sabitle */
+  right: 0; /* Sağ kısma sabitle */
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  padding: 16px 60px;
+  background-color: #194d99;
+  color: #fff;
+}
+
+.cat-block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Dış boşluk */
+}
+.item-row {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border-radius: 12px;
+  width: 600px;
+  height: 400px;
+  gap: 20px;
+}
+
+.btn-container {
+  margin-top: 10px; /* Buton ile resim arasındaki boşluk */
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+
+.product-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-inline: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    .head-block {
+      text-align: center;
+      padding: 40 0px;
+      line-height: 50px;
+      p{
+        width: 50%;
+        margin-inline: auto;
+      }
+    }
+  }
